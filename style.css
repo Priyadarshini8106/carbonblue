@@ -129,7 +129,8 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
   .logo {
-    width: 120px;
+    width: 45%;                /* ✅ Responsive size */
+    max-width: 180px;
   }
 
   .logo-group {
@@ -140,7 +141,8 @@ body {
   }
 
   .cambridge-logo {
-    width: 150px;
+    width: 45%;                /* ✅ Responsive size */
+    max-width: 180px;
   }
 
   .tagline {
