@@ -1411,11 +1411,20 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .why-card {
-    width: 90%;
-  }
+  .why-card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 10px;
 }
 
+.why-card {
+  flex: 1 1 220px;
+  max-width: 250px;
+  min-width: 150px;
+}
+}
 /* Footer style */
 .footer-section {
   background: linear-gradient(to right, var(--turquoise), var(--carbon-blue));
