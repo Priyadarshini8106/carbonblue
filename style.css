@@ -132,6 +132,13 @@ body {
     width: 120px;
   }
 
+  .logo-group {
+    flex-direction: row; /* ✅ Keep them side by side */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
   .cambridge-logo {
     width: 150px;
   }
@@ -140,11 +147,10 @@ body {
     font-size: 1.2rem;
   }
 
-  .logo-group {
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap; /* allows logos to wrap if screen is too narrow */
+  .logo, .cambridge-logo {
+    max-width: 40vw;  /* Responsive sizing */
+    height: auto;
+    margin: 0 10px;
   }
 }
 
@@ -306,10 +312,10 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
   .about-container {
-    flex-direction: column;
+    flex-direction: row;
   }
   .about-images.side-by-side {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
