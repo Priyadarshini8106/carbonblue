@@ -253,19 +253,7 @@ body {
   font-weight: bold;
 }
 
-.btn-primary {
-  background-color: var(--carbon-blue);
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
 
-.btn-primary:hover {
-  background-color: #005bb5;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
