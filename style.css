@@ -1359,7 +1359,7 @@ body {
 /* Footer style */
 .footer-section {
   background: #f9f6ee;
-  color: var(--white);
+  color: var(--carbon-blue);
   width: 100%;
   padding: 40px 20px;
 }
