@@ -84,11 +84,20 @@ body {
     font-size: 1.2rem;
     padding: 8px 16px;
   }
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: auto;        /* <-- let the height adjust to image */
+  max-height: none;
+}
 
-  .hero-banner {
-    max-height: 300px;
-  }
-
+.hero-image {
+  width: 100%;
+  height: auto;        /* <-- this ensures full image visibility */
+  object-fit: contain;
+  position: relative;  /* <-- no absolute positioning */
+}
+  
   .hero-logo-content {
     top: 70%;
   }
