@@ -1379,9 +1379,6 @@ body {
   height: auto;
 }
 
-.foot{
-  color: #007bff;
-}
 
 .footer-info {
   flex: 1 1 40%;
@@ -1401,7 +1398,8 @@ body {
 
 .footer-info i {
   margin-right: 10px;
-  color: white;
+  color: var(--carbon-blue); /* or --turquoise, or #004aad */
+
 }
 
 .footer-map {
