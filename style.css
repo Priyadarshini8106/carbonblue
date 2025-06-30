@@ -1358,7 +1358,7 @@ body {
 }
 /* Footer style */
 .footer-section {
-  background: linear-gradient(to right, var(--turquoise), var(--carbon-blue));
+  background: #f9f6ee;
   color: var(--white);
   width: 100%;
   padding: 40px 20px;
