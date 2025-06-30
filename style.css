@@ -1379,6 +1379,10 @@ body {
   height: auto;
 }
 
+.foot{
+  color: #007bff;
+}
+
 .footer-info {
   flex: 1 1 40%;
 }
