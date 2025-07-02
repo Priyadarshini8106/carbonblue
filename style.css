@@ -535,7 +535,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
 }
 
 /* Image wrappers on both left and right */
@@ -547,7 +547,7 @@ body {
 }
 
 .cambridge-img {
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
   display: block;
   
