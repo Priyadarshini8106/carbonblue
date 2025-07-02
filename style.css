@@ -554,7 +554,7 @@ body {
 }
 
 .small-right-img {
-  max-width: 320px; /* make the right image a little smaller */
+  max-width: 400px; /* make the right image a little smaller */
 }
 
 /* Central content column */
