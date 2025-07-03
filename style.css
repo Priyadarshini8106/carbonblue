@@ -251,7 +251,7 @@ body {
     flex-direction: column;
   }
   .about-images.side-by-side {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -616,8 +616,8 @@ body {
 
   /* ✅ Force larger image size specifically for the right image */
   .cambridge-img.small-right-img {
-    width: 95vw;
-    max-width: 95vw;
+    width: 90vw;
+    max-width: 90vw;
     height: auto;
   }
 }
