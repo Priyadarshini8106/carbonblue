@@ -608,19 +608,20 @@ body {
     text-align: center;
   }
 
-  /* Remove general limit for images inside this block */
   .cambridge-img {
     width: 100%;
-    max-width: 100%; /* Let it grow fully */
+    max-width: 100%; /* Remove previous limitation */
     margin: auto;
   }
 
-  /* Specifically increase right image size */
-  .small-right-img {
-    width: 90vw;       /* 90% of viewport width */
-    max-width: 500px;  /* optional upper cap */
+  /* ✅ Force larger image size specifically for the right image */
+  .cambridge-img.small-right-img {
+    width: 95vw;
+    max-width: 95vw;
+    height: auto;
   }
 }
+
 
 /* SECTION TITLE */
 .section-title {
