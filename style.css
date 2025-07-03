@@ -598,7 +598,7 @@ body {
 /* Responsive layout for mobile */
 @media (max-width: 768px) {
   .cambridge-three-column {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
 
@@ -606,6 +606,7 @@ body {
   .cambridge-image-wrapper {
     flex: 1 1 100%;
     text-align: center;
+    margin-right: 20px;
   }
 
   .cambridge-img {
@@ -619,6 +620,7 @@ body {
     width: 90vw;
     max-width: 90vw;
     height: auto;
+     margin-right: 20px;
   }
 }
 
