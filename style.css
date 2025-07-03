@@ -612,6 +612,10 @@ body {
     max-width: 300px;
     margin: auto;
   }
+
+  .small-right-img {
+  max-width: 100%; /* make the right image a little smaller */
+}
 }
 
 /* SECTION TITLE */
