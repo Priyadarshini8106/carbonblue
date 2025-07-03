@@ -535,12 +535,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* Image wrappers on both left and right */
 .cambridge-image-wrapper {
-  flex: 1 1 25%;
+  flex: 1 1 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -559,7 +559,7 @@ body {
 
 /* Central content column */
 .cambridge-content {
-  flex: 1 1 40%;
+  flex: 1 1 30%;
   color: var(--text-dark);
   text-align: left;
 }
